@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CANVA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="container">
+    <section class="tool-board">
+        <div class="row">
+            <label for="" class="head-label">Shapes</label>
+            <ul class="options">
+                <li class="option tool" id="Circle">
+                    <span>Circle</span>
+                </li>
+                <li class="option tool" id="Rectangle">
+                    <span> Rectangle</span>
+                </li>
+                    <li class="option tool" id="Triangle">
+                        <span>Triangle</span>
+                        </li>
+                    <li class="option">
+                        <label for="fill-color">fill color</label>
+                        <input type="checkbox" id="fill-color">
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <label for="" class='head-label'>options</label>
+                <ul class="options">
+                    <li class="option tool active" id="brush">
+                        <span>brush</span>
+                    </li>
+                    <li class="option tool" id="Eraser">
+                        <span>Eraser</span>
+                    </li>
+                    <li class="option">
+                        <input type="range" id="size-slider" min="1" max="30" value="5">
+                    </li>
+                </ul>
+            </div>
+            <div class="row colors">
+                <label for="" class="head-label">Color</label>
+                <ul class="options">
+               <li class="option color"></li>
+               <li class="option color"></li>
+               <li class="option color"></li>
+               <li class="option color"></li>
+               <li class="option color">
+                <input type="color" value="#2693db" name="" id="color-picker">
+               </li>
+                </ul>
+            </div>
+            <div class="row">
+             <button class="clear-canvas">Clear</button>
+             <button class="Save-canvas">Save</button>
+            </div>
+
+        </section>
+        <section class="drawing-board">
+         <canvas>
+
+         </canvas>
+        </section>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
